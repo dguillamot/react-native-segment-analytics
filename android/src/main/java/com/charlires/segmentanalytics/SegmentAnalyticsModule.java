@@ -25,7 +25,8 @@ public class SegmentAnalyticsModule extends ReactContextBaseJavaModule {
     public SegmentAnalyticsModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
-
+    
+    @Override
     public String getName() {
         return "SegmentAnalytics";
     }
