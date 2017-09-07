@@ -4,7 +4,7 @@
 
 #import "SegmentAnalytics.h"
 #import "RCTConvert.h"
-#import <Analytics/SEGAnalytics.h>
+#import "SEGAnalytics.h"
 #import <Foundation/Foundation.h>
 
 @implementation SegmentAnalytics
